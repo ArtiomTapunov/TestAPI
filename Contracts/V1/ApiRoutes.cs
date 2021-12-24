@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace edu_core_app.Contracts.V1
+namespace TestAPI.Contracts.V1
 {
     public static class ApiRoutes
     {

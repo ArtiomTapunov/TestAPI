@@ -48,6 +48,8 @@ namespace TestAPI
                 x.SwaggerDoc("v1", new OpenApiInfo { Title = "Test API", Version = "v1" });
             });
 
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddScoped<IPostService, PostService>();
         }
 
